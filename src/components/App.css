@@ -1,0 +1,18 @@
+.numbers{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.number{
+    width: 25px;
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selected-number{
+    background-color: yellow;
+}
