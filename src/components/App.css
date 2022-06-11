@@ -1,11 +1,24 @@
-.numbers{
+.main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.field {
+    margin-top: 20px;
+}
+
+.numbers {
     display: flex;
     gap: 5px;
-    width: 100%;
     flex-wrap: wrap;
 }
 
-.number{
+.number {
     width: 25px;
     text-align: center;
     background-color: rgb(217, 217, 217);
@@ -13,6 +26,29 @@
     cursor: pointer;
 }
 
-.selected-number{
+.selected-number {
     background-color: yellow;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.magicButton {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 20px;
 }
